@@ -5,30 +5,30 @@
            id: "1",
            title: "MAXFIT",
            description: "MaxFit is an extensive training class that will help your body work at maximum load from the start to the end of your workout to gain the best results faster.",
-           image: "img/a-women-with-ball.png"
+           image: "img/blog__one.jpg"
        },
        {
            id: "2",
            title: "CAMPFIT",
            description: "Have fun while mixing your interval training, body weight exercises, and strength training!",
-           image: "img/a-woman-trains-with-ropes.png"
+           image: "img/blog__two.jpg"
        },
        {
            id: "3",
            title: "POWERFIT",
            description: "PowerFit is a high strength training class which uses barbells/cardio to get maximum results.",            
-           image: "img/a-man-with-a-barbell.png"
+           image: "img/blog__three.jpg"
        },
        {
            id: "4",
            title: "SPINFIT",
            description: "The members of SpinFit use the stationary bike which imitates the real world bicycle obstacle course with the capacity to burn more than 500 calories per class",            
-           image: "img/a-woman-is-training-on-the-exercise-bike.png"
+           image: "img/services_one.jpg"
        },
     ];
 
     function renderClasses(products) {
-       const classesContainer = document.querySelector('.main__accordion');
+       const classesContainer = document.querySelector('.blog_image_container');
        classesContainer.innerHTML = '';
        for (const product of products) {
            classesContainer.innerHTML += `
@@ -51,3 +51,25 @@
 renderClasses(products);
 
 })();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
