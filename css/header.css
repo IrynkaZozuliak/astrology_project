@@ -1,0 +1,11 @@
+
+.header_image {
+background: url(/img/background/background1.jpg);
+background-size: cover;
+background-position: center;
+display: flex;
+margin: 0;
+padding: 0;
+flex-direction: column;
+overflow-x: hidden;
+}
