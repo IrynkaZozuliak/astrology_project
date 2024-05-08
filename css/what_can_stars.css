@@ -1,0 +1,13 @@
+.text_what_can_position {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.foto_can_stars_say {
+    width: 450px;
+}
+
+.text_blok_one_size {
+    max-width: 650px;
+}
