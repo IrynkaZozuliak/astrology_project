@@ -8,13 +8,165 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 30px;
 }
 
 
 .foto_can_stars_say {
-    width: 450px;
+    width: 470px;
 }
 
 .text_blok_one_size {
-    max-width: 650px;
+    max-width: 670px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
 }
+
+.hh2_text_what_can {
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #4f4949;
+    line-height: 1.3;
+}
+
+.hhrr_line_size {
+    width: 60px;
+    height: 4px;
+    border: none;
+    color: #2ab6ff;
+    background: #2ab6ff;
+    margin-top: 15px;
+     
+}
+
+.hh3_text_what_can {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #56564e;
+    line-height: 1.39;
+}
+
+.pp_text_what_can {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #808074;
+    line-height: 1.56;
+}
+
+
+
+
+
+
+.pp_position_read_more {
+    padding-top: 20px;
+   }
+   
+   .pp_text_read_more {
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        line-height: 1.56;
+        text-decoration: underline;
+       word-wrap: break-word;
+       z-index: 1;
+       color: #4f4949;
+       margin-bottom: 25px;
+   }
+   
+ 
+   
+   .pp_text_read_one {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #808074;
+    line-height: 1.56;
+    margin-bottom: 25px;
+         
+    }
+   
+     /* 
+     тут додано анімація до тексту read more, коли поруч є плюсик +
+     натискаючи на який розкривається додаткове поле
+     */
+     summary {
+       display:inline-block;
+       padding: .1em .5em .1em .4em;
+       font-size:1.4em;
+       cursor: pointer;
+     }
+     
+     summary::after {   
+        content: "+";
+        margin-left:570px;
+        
+      }
+     
+     details[open] > summary::after {
+        content: "-";
+      }
+     
+     summary ~ * {
+        padding:0 0em 0 0em;
+     }
+     
+      details{
+        display:block;
+        margin-bottom: .5rem;
+      }
+     
+     
+     
+     details {
+        font-size: 1rem;
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+        max-width: 800px;
+        transition: all 0.3s ease-in-out;
+     }
+     
+      
+     
+     summary {
+        user-select: none;
+        cursor: pointer;
+        font-weight: 600;
+        display: flex;
+        list-style: none;
+        padding: 1px;
+        align-items: center;
+       
+     }
+     
+     summary:hover  {
+        opacity: 1;
+     }
+     
+     summary::-webkit-details-marker {
+        display: none;
+     }
+     
+     summary:focus {
+        outline: none;
+     }
+     
+     summary:hover {
+        opacity: 1;
+     }
