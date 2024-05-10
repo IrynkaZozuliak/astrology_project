@@ -30,4 +30,24 @@
 
 .personal_read_elements_color {
     background-color: #fff;
+    width: 300px;
+    height: 600px;
+    
+}
+.hhhhhh {
+    margin: 25px 20px;
+}
+
+.foto_personal_readings {
+    width: 100px;
+}
+
+.hh3_personal_readings_textt {
+    font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+    color: #322c2c;
+    line-height: 1.32;
 }
