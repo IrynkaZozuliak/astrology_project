@@ -1,0 +1,33 @@
+.blok_personal_readings_top {
+    background: url(/img/background/background2.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;
+    }
+.personal_readings_position_text {
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.hh2_personal_readings_text {
+    font-size: 40px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+    line-height: 1.3;
+}
+
+.personal_read_elements_position {
+    display: flex;
+    flex-direction: row ;
+}
+
+.personal_read_elements_color {
+    background-color: #fff;
+}
