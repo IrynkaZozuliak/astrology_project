@@ -1,6 +1,13 @@
+.blok_can_stars_top {
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+
 .text_what_can_position {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 
