@@ -21,19 +21,35 @@
     font-style: normal;
     color: #fff;
     line-height: 1.3;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line_size_personal_read {
+    width: 60px;
+    height: 4px;
+    border: none;
+    color: #fff;
+    background: #fff;
+    margin-top: 15px;
+    margin-bottom: 50px;
+
 }
 
 .personal_read_elements_position {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 30px;
 }
 
 .personal_read_elements_color {
     background-color: #fff;
     width: 270px;
-    height: 600px;
     border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
     
 }
 .hh3_pp_position {
@@ -48,7 +64,11 @@ margin-bottom: 20px;
 }
 
 .foto_personal_readings {
-    width: 100px;
+    width: 115px;
+}
+
+.foto_personal_readings_two {
+    width: 120px;
 }
 
 .hh3_personal_readings_textt {
@@ -84,7 +104,9 @@ line-height: 1.56;
 .prise_personal_read_position {
     display: flex;
     flex-direction: row;
-
+    margin-top: 30px;
+    margin-bottom: 15px;
+    
 }
 
 .hh3_price_personal {
@@ -98,11 +120,11 @@ line-height: 1.56;
 }
 
 .line_price {
-    display: flex;
-flex-direction: row;
-align-items: center;
+    display: grid;
+    align-self: center;
     margin-left: 5px;
-    height: 30px;
+    margin-right: 5px;
+    height: 35px;
     border-right: 1px solid #000;
 }
 
@@ -117,3 +139,37 @@ flex-direction: row;
 align-items: center;
  
 }
+
+
+
+.buttom_personal_readings button[type="submit"] {
+    display: inline-block;
+    font-size: 14px;
+    background: #2ab6ff;
+    color: #ffffff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    
+    transition: background 0.25s, color 0.25s;
+  }
+  
+  .buttom_personal_readings button[type="submit"]:hover {
+    color: #fff;
+    background: #322c2c;
+  }
+
+  .button__personal_container { 
+    width: 90px;
+    height: 35px;
+    border: none;
+    background-color: #2ab6ff;
+    text-align: center;
+    text-decoration: none;  
+    color: #322c2c;
+   
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    border-radius: 5px;
+    border-width: 5px;
+  }
