@@ -25,17 +25,26 @@
 
 .personal_read_elements_position {
     display: flex;
-    flex-direction: row ;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .personal_read_elements_color {
     background-color: #fff;
-    width: 300px;
+    width: 270px;
     height: 600px;
+    border-radius: 10px;
     
 }
-.hhhhhh {
+.hh3_pp_position {
     margin: 25px 20px;
+}
+
+.foto_pread_position {
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-bottom: 20px;
 }
 
 .foto_personal_readings {
@@ -43,11 +52,68 @@
 }
 
 .hh3_personal_readings_textt {
-    font-size: 22px;
+  font-size: 22px;
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 600;
   font-style: normal;
-    color: #322c2c;
-    line-height: 1.32;
+  color: #322c2c;
+  line-height: 1.32;
+}
+
+.pp_personal_readings_one {
+font-size: 16px;
+font-family: "Roboto", sans-serif;
+font-weight: 300;
+font-style: normal;
+color: #808074;
+line-height: 1.56;
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.pp_personal_readings_two {
+font-size: 16px;
+font-family: "Roboto", sans-serif;
+font-weight: normal;
+font-style: normal;
+color: #808074;
+line-height: 1.56;
+}
+
+.prise_personal_read_position {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.hh3_price_personal {
+    font-size: 30px;
+font-family: "Roboto", sans-serif;
+font-weight: normal;
+font-style: normal;
+color: #181816;
+line-height: 1.56;
+
+}
+
+.line_price {
+    display: flex;
+flex-direction: row;
+align-items: center;
+    margin-left: 5px;
+    height: 30px;
+    border-right: 1px solid #000;
+}
+
+.hh4_price_personal {
+    font-size: 14px;
+font-family: "Roboto", sans-serif;
+color: #322c2c;
+font-weight: 300;
+text-decoration: line-through;
+display: flex;
+flex-direction: row;
+align-items: center;
+ 
 }
