@@ -1,0 +1,61 @@
+.blok_personal_consultation_top {
+    background: url(/img/background/background3.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;
+    }
+
+    .personal_consultation_blok_position {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .hh2_personal_consultation_text {
+        font-size: 40px;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: #4f4949;
+        line-height: 1.3;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+    .hhrr_line_size {
+        width: 60px;
+        height: 4px;
+        border: none;
+        color: #2ab6ff;
+        background: #2ab6ff;
+        margin-top: 15px;   
+    }
+
+.consultation_foto_text_position {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+    .foto_girl_blok_three {
+        width: 570px;
+        border-radius: 7px;
+    }
+
+.personal_consultation_elements_position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+    .logo_personal_consultation {
+        width: 70px;
+    }
