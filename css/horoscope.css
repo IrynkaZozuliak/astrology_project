@@ -28,7 +28,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
     
     .hhrr_line_size {
@@ -39,6 +39,7 @@
         background: #2ab6ff;
         margin-top: 15px;   
     }
+
 .monthly_horoscope_white_position {
     display: flex;
     flex-direction: row;
@@ -51,9 +52,9 @@
 
 .monthly_horoscope_white_elements {
     width: 270px;
-    height: 230px;
+    height: 235px;
     background-color: #fff;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
     border-radius: 10px;
 }
 
