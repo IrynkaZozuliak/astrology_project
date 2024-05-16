@@ -1,14 +1,21 @@
 .blok_contact_form_one_top {
     background: url(/img/background/background5.jpg);
-    background-size: cover;
-    background-position: center;
     display: flex;
     margin: 0;
     padding: 0;
     flex-direction: column;
     overflow-x: hidden;
     border-image: fill 0 linear-gradient(90deg, rgba(141, 141, 141, 0.333), #0e0b0b);
-    }
+   
+
+    background-repeat: no-repeat;
+    background-position: center center;
+     background-attachment: fixed;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover; 
+}
 
    
 
