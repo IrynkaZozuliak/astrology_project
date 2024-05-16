@@ -3,9 +3,10 @@
         background-size: cover;
         background-position: center;
         display: flex;
+        flex-direction: column;
+        justify-content: center;
         margin: 0;
         padding: 0;
-        flex-direction: column;
         overflow-x: hidden;
         }
     .astrology_school_blok_position {
