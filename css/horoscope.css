@@ -47,9 +47,9 @@
     flex-wrap: wrap;
     margin-left: 49px;
     margin-right: 49px;
-    gap: 30px;
+    gap: 30px;  
 }
-
+ 
 .monthly_horoscope_white_elements {
     width: 270px;
     height: 235px;
