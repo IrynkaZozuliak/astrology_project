@@ -25,7 +25,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 40px;
+        margin-bottom: 25px;
     }
 
     .hhrr_line_size {
@@ -38,18 +38,91 @@
     }
 
 
-.astrology_school_elements_position {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
-}
+    .astrology_school_elements_position {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
 
     .astrology_school_elements_color {
         background-color: #fff;
-        width: 270px;
         border-radius: 10px;
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.09);
-        
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
+    .foto_size_position_astrology {
+        margin: 35px 30px 30px 30px;
+        width: 310px;
+        height: 450px;
+        border-radius: 10px;
+        object-fit: cover;
+        object-position: 50% 50%;
+        z-index: 0;
+        position: relative;
+    }
+
+    .hh3_astrology_school {
+        font-size: 22px;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        color: #fff;
+        line-height: 1.32;
+        text-align: center;
+
+        background-color: #4f4949;
+        margin-top: -70px;
+        position: absolute;
+        z-index: 1;
+        width: 270px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .hh3_astrology_school_dark_text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+
+    .buttom_asctrology_school button[type="submit"] {
+        display: inline-block;
+        font-size: 16px;
+        background: #2ab6ff;
+        color: #ffffff;
+        border: 1px solid transparent;
+        cursor: pointer;
+        transition: background 0.25s, color 0.25s;
+
+        margin-top: 10px;
+        margin-bottom: 40px;
+      }
+      
+      .buttom_asctrology_school button[type="submit"]:hover {
+        color: #fff;
+        background: #322c2c;
+      }
+    
+      .button__asctrology_school_container { 
+        width: 120px;
+        height: 45px;
+        border: none;
+        background-color: #2ab6ff;
+        text-align: center;
+        text-decoration: none;  
+        color: #322c2c;
+       
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        border-radius: 5px;
+        border-width: 5px;
+      }
+    
