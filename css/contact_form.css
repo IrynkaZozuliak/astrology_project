@@ -7,7 +7,7 @@
     padding: 0;
     flex-direction: column;
     overflow-x: hidden;
-    border-image: fill 0 linear-gradient(90deg, rgba(145, 144, 144, 0.333), #000);
+    border-image: fill 0 linear-gradient(90deg, rgba(141, 141, 141, 0.333), #0e0b0b);
     }
 
    
@@ -15,12 +15,22 @@
     .contact_form_blok_one_position {
         margin-top: 100px;
         margin-bottom: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 150px;
     }
 
     .title_text_hh2_line {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+    }
+
+    .title_text_horoscope_position {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     .hh2_text_elements_position {
@@ -72,7 +82,12 @@
 
 
 
-
+    .forma_botton_positions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
 
     .figura_position_petSit_all {
         display: flex;
@@ -83,57 +98,42 @@
     
  
     
-    .figura_position_petSit {
-        width: 456px;
-        height: 45px;
+    .figura_position_horoscope {
+        width: 370px;
+        height: 50px;
         background-color: rgba(119, 108, 108, 0.5);
         border-style: solid;
         border-color: rgba(97, 81, 81, 0.001);
         border-radius: 5px;
     
-        font-size: 15px;
-        line-height: 1.7;
-        font-weight: 400;
-        font-family: 'Lato',sans-serif;
-        color: #b2b2b2;
+        font-size: 16px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 1.36;
+        color: #8f8c8c;
         padding: 13px 18px;
     }
     
 
     
-    .figura_position_petSit:focus{
+    .figura_position_horoscope:focus{
         border-color: rgb(81, 149, 228);}
     
         
-    .text_posotion_ChoseFile {
-        display: flex;
-        flex-direction: row;
-        gap: 10px;
-     }
-    
-    .img_position_petSitWanted {
-        width: 18px;
-        height: 18px;
+
+    .zodiak_text_one {
+        display: none;
+         
     }
-    
-     .position_container_img_PetSit {
-        display: flex;
-        flex-direction: column;
-        padding-top: 25px;
-        padding-left: 59px;
-        gap: 10px;
-     }
-    
-  
-    
-    
-    .hh3_text_colories_ChoseFile {
-        font-size: 16px;
-        line-height: 1.7;
-        font-family: 'Lato',sans-serif;
+
+    .zodiak_text {
+        color: #fff;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
         font-weight: 400;
-        color: #585858;
-        cursor: pointer;
+        font-style: normal;
+        line-height: 1.36;
     }
     
     
@@ -152,60 +152,48 @@
             border-radius: 5px;
         }
     
-        .attach-file {
+
+    
+
+        .buttom_phoroscope button[type="submit"] {
             display: inline-block;
-            background-color: #007bff;
-            color: #fff;
-            padding: 8px 15px;
+            font-size: 16px;
+            background: #2ab6ff;
+            color: #ffffff;
+            border: 1px solid transparent;
+            cursor: pointer;
+            
+            transition: background 0.25s, color 0.25s;
+          }
+          
+          .buttom_phoroscope button[type="submit"]:hover {
+            color: #322c2c;
+            background: #fff;
+          }
+        
+          .button__horoscope_container { 
+            width: 370px;
+            height: 45px;
             border: none;
-            border-radius: 5px;
-            cursor: pointer;
-        }
+            background-color: #2ab6ff;
+            text-align: center;
+            text-decoration: none;  
+            color: #322c2c;
+           
+            font-family: "Josefin Sans", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            border-radius: 6px;
+            border-width: 5px;
+          }
     
-        .files-list {
-            margin-top: 10px;
-        }
+          .horoscope_position_botton {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 50px;
+          }
+        
     
-        .files-list li {
-            margin-bottom: 5px;
-        }
-    
-        .delete-file {
-            color: red;
-            cursor: pointer;
-            margin-left: 5px;
-        }
-    
-        .find-me {
-        display: inline-block;
-        font-size: 15px;
-        background: #65c178;
-        color: #ffffff;
-        border: 1px solid transparent;
-        border-radius: 5px;
-        cursor: pointer;
-        padding: 9px 170px;
-        transition: background 0.25s, color 0.25s;
-        }
-    
-    
-         
-      .find-me:hover {
-        color: #ffffff;
-        background: #585858;
-      }
-    
-     
-      @media only screen and (min-width:320px) and (max-width:601px) {
-        .find-me  {
-            padding: 9px 70px;
-        }
-    }
-    
-    @media only screen and (min-width:601px) and (max-width:991px) {
-        .find-me  {
-            padding: 9px 120px;
-        }
-    }
     
      
