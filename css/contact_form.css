@@ -7,7 +7,10 @@
     padding: 0;
     flex-direction: column;
     overflow-x: hidden;
+    border-image: fill 0 linear-gradient(90deg, rgba(145, 144, 144, 0.333), #000);
     }
+
+   
 
     .contact_form_blok_one_position {
         margin-top: 100px;
@@ -83,9 +86,9 @@
     .figura_position_petSit {
         width: 456px;
         height: 45px;
-        background-color: rgba(88, 88, 88, 0.12);
+        background-color: rgba(119, 108, 108, 0.5);
         border-style: solid;
-        border-color: rgba(88, 88, 88, 0.001);
+        border-color: rgba(97, 81, 81, 0.001);
         border-radius: 5px;
     
         font-size: 15px;
