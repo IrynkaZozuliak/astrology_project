@@ -1,5 +1,5 @@
 .blok_time_days_top {
-    background: url(/img/background/background7.jpg);
+    background-image: linear-gradient(rgba(50, 44, 44, 0.99) 0%, rgba(49, 29, 94, .85) 50%), url(/img/background/background7.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -8,7 +8,8 @@
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    box-shadow: inset 20 20 20 400px rgba(50, 44, 44, 0.94);
+    
+    
     }
 
 .time_days_blok_position {
