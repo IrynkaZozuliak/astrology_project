@@ -1,0 +1,41 @@
+.blok_testimonials_top {
+    background: url(/img/background/background3.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;
+    }
+
+
+
+    .testimonials_blok_position {
+        margin-top: 90px;
+        margin-bottom: 90px;
+    }
+
+    .hh2_testimonials_text {
+        font-size: 40px;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: #4f4949;
+        line-height: 1.3;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+    .hhrr_line_size {
+        width: 60px;
+        height: 4px;
+        border: none;
+        color: #2ab6ff;
+        background: #2ab6ff;
+        margin-top: 15px;   
+    }
