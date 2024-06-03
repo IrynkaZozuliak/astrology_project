@@ -1,0 +1,42 @@
+.blok_my_books_top {
+    background: url(/img/background/background9move.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;
+    }
+
+
+
+    .my_books_blok_position {
+        margin-top: 90px;
+        margin-bottom: 100px;
+    }
+
+    .hh2_my_books_text {
+        font-size: 40px;
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        color: #fff;
+        line-height: 1.3;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+    
+    .line_size_personal_read {
+        width: 60px;
+        height: 4px;
+        border: none;
+        color: #fff;
+        background: #fff;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
