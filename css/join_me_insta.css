@@ -1,14 +1,13 @@
-.blok_join_me_insta_top {
-    background: url(/img/background/background10.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-    overflow-x: hidden;
-    }
-
+    .blok_join_me_insta_top {
+        background: url(/img/background/background10.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        overflow-x: hidden;
+        }
 
 
     .blok_join_me_insta_position {
@@ -38,4 +37,23 @@
         color: #2ab6ff;
         background: #2ab6ff;
         margin-top: 15px;   
+    }
+
+
+    .foto_join_me_insta_position {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    .foto_join_me_insta {
+        width: 365px;
+        height: 300px;
+        border-radius: 7px;
+
+        object-fit: cover;
+        object-position: 50% 50%;
+        z-index: 0;
+        position: relative;
     }

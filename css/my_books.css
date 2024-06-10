@@ -1,13 +1,13 @@
-.blok_my_books_top {
-    background: url(/img/background/background9move.jpg);
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-    overflow-x: hidden;
-    }
+    .blok_my_books_top {
+        background: linear-gradient( rgba(56, 56, 56, 0.8), rgba(39, 34, 34, 0.7) ), url(/img/background/background9move.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        overflow-x: hidden;
+        }
 
     .my_books_blok_position {
         margin-top: 90px;
@@ -26,7 +26,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 40px;
+        
     }
     
     .line_size_personal_read {
@@ -40,33 +40,36 @@
     }
 
 
-
     .elements_my_books_position {
         display: flex;
         flex-direction: row;
         justify-content: center;
-        
+        gap: 30px;
     }
+    
     .my_books_foto_text_position {
         display: flex;
         flex-direction: row;  
-        
+        background-color: #fff;
+        border-radius: 7px;
+        width: 570px;
+        height: 260px;
     }
 
     .foto_my_books {
-        width: 300px;
+        width: 285px;
         height: 260px;
         object-fit: cover;
         object-position: 50% 50%;
         z-index: 0;
         position: relative;
+        border-radius: 7px 0px 0px 7px;
     }
 
     .text_botton_position_books {
-        background-color: #fff;
-        padding-left: 25px;
+        padding-left: 30px;
+        padding-right: 30px;
         padding-top: 50px;
-       
     }
 
     .hh3_my_books_textt {
@@ -77,5 +80,42 @@
         font-style: normal;
         color: #322c2c;
         line-height: 1.32;
-        width: 230px;
+         
+        margin-bottom: 38px;
     }
+
+
+
+
+    .buttom_my_books button[type="submit"] {
+        display: inline-block;
+        font-size: 16px;
+        background: #2ab6ff;
+        color: #ffffff;
+        border: 1px solid transparent;
+        cursor: pointer;
+        
+        transition: background 0.25s, color 0.25s;
+      }
+      
+      .buttom_my_books button[type="submit"]:hover {
+        color: #fff;
+        background: #322c2c;
+      }
+    
+      .button__my_books { 
+        width: 90px;
+        height: 45px;
+        border: none;
+        background-color: #2ab6ff;
+        text-align: center;
+        text-decoration: none;  
+        color: #322c2c;
+       
+        font-family: "Josefin Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        border-radius: 5px;
+        border-width: 5px;
+      }
+    
