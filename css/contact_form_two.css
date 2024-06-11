@@ -1,7 +1,7 @@
 .blok_contact_form_two_top {
     background: url(/img/background/background12.png);
     background-size: cover;
-    background-position: top;
+    background-position: bottom;
     display: flex;
     margin: 0;
     padding: 0;
@@ -14,7 +14,6 @@
     margin-top: 100px;
     margin-bottom: 7px;
 }
-
 
 
 
