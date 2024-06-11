@@ -15,6 +15,7 @@
         margin-bottom: 100px;
     }
 
+
     .hh2_kate_sun_text {
         font-size: 40px;
         font-family: "Josefin Sans", sans-serif;
@@ -48,6 +49,13 @@
 
         margin-left: 55px;
         margin-right: 55px;
+    }
+
+    @media only screen and (min-width:1250px) and (max-width:2500px) {
+        .elements_kate_sun_positions {
+            margin-left: 275px;
+            margin-right: 275px;
+        }
     }
 
 
