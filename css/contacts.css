@@ -35,13 +35,63 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    gap: 30px;
 
 }
 
 .elements_contacts_size_cont {
     background-color: #fff;
     width: 370px;
-    height: 250px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+    height: 240px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.19);
     border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
+
+.logo_contacts_element_foto {
+    background: url(/img/person_consultat/fon_blok3.webp);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    width: 70px;
+    height: 70px; 
+    margin-top: 35px;
+}
+
+.contactss_elements {
+    color: #fff;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.hh3_contacts_blok_text {
+    font-size: 22px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+   
+    color: #322c2c;
+    line-height: 1.32;
+}
+
+.pp_contacts_blok_text {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #808074;
+    line-height: 1.56;
+     
+   
+}
+
+
+
