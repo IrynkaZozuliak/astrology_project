@@ -109,7 +109,7 @@
 
 
 .blok_footer_two_top {
-    background: #322c2c;
+    background-color: #181f25;
     background-size: cover;
     background-position: top;
     display: flex;
@@ -123,4 +123,10 @@
 .blok_footer_two_position {
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.elements_footer_two_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
