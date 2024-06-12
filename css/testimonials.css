@@ -28,7 +28,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 35px;
+        margin-bottom: 30px;
     }
     
     .hhrr_line_size {
@@ -63,7 +63,7 @@
 
 
     .testimonials_wrapper {
-        max-width: 1150px;
+        max-width: 1135px;
         width: 100%;
         position: relative;
 
@@ -91,7 +91,7 @@
       .testimonials_wrapper .carousel{
         display: grid;
         grid-auto-flow: column;
-        grid-auto-columns: calc((100% / 2) - 12px);
+        grid-auto-columns: calc((100% / 2) - 15px);
         overflow-x: auto;
         scroll-snap-type: x mandatory;
         gap: 30px;
@@ -140,8 +140,8 @@
 
         text-align: center;
         margin-bottom: 25px;
-        margin-left: 70px;
-        margin-right: 70px;
+        margin-left: 80px;
+        margin-right: 80px;
     }
 
 
