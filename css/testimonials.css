@@ -28,7 +28,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 40px;
+        margin-bottom: 35px;
     }
     
     .hhrr_line_size {
@@ -76,8 +76,8 @@
         transform: translateY(-50%);
         transition: transform 0.1s linear;
         color: #808074;
-        margin-right: -25px;
-        margin-left: -25px;
+        margin-right: -20px;
+        margin-left: -20px;
       }
       .testimonials_wrapper i:active{
         transform: translateY(-50%) scale(0.85);
@@ -120,7 +120,7 @@
       }
       .carousel .card {
         scroll-snap-align: start;
-        height: 350px;
+        height: 340px;
         list-style: none;
         background: #fff;
         cursor: pointer;
@@ -168,3 +168,28 @@
           grid-auto-columns: 100%;
         }
       }
+
+
+      .slider__dots {
+        display: flex;
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        justify-content: center;
+        margin-top: 15px;
+         
+      }
+
+        .slider__dots-item {
+          width: 10px;
+          height: 10px;
+          background-color: #808074;
+          border-radius: 100%;
+          margin: 20px 10px;
+        }
+      
+        .slider__dots-item:hover {
+          opacity: .7;
+          cursor: pointer;
+        }
+     
