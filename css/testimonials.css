@@ -63,7 +63,7 @@
 
 
     .testimonials_wrapper {
-        max-width: 1135px;
+        max-width: 1170px;
         width: 100%;
         position: relative;
 
@@ -76,8 +76,8 @@
         transform: translateY(-50%);
         transition: transform 0.1s linear;
         color: #808074;
-        margin-right: -20px;
-        margin-left: -20px;
+        margin-right: -10px;
+        margin-left: -10px;
       }
       .testimonials_wrapper i:active{
         transform: translateY(-50%) scale(0.85);
