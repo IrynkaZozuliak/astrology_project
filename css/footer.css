@@ -1,0 +1,126 @@
+.blok_footer_one_top {
+    background: linear-gradient( rgba(56, 56, 56, 0.8), rgba(39, 34, 34, 0.7) ), url(/img/background/background14.webp);
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;    
+    
+}
+
+.blok_footer_one_position {
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+
+
+
+.footer_one_elements {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 18px;
+}
+
+.footer_column {
+    width: 220px;
+}
+
+
+.hh2_footer_one_text {
+    font-size: 24px;
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #fff;
+    line-height: 1.3;
+
+    margin-bottom: 40px;
+}
+
+.pp_footer_one_text {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #cfcfcf;
+    line-height: 1.56;
+}
+
+.hh3_footer_text_one {
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #cfcfcf;
+    line-height: 1.39;
+}
+
+
+
+
+.footer_column ul {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    list-style-type: none;
+  }
+
+  .footer_column ul li a {
+    text-decoration: none;
+  
+  }
+
+.footer_menu-link {
+    position: relative;
+    max-width: 100%;
+    color: #ffffff;
+    line-height: normal;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.footer_menu-link:hover {
+    color: #56b3e9;
+    transition: 0.1s;
+}
+
+
+
+
+.follow_icons_position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+
+ 
+
+
+
+.blok_footer_two_top {
+    background: #322c2c;
+    background-size: cover;
+    background-position: top;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    overflow-x: hidden;    
+    
+}
+
+.blok_footer_two_position {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
