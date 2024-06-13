@@ -65,9 +65,31 @@ overflow-x: hidden;
 .nav__menu-link:hover {
     color: #56b3e9;
     transition: 0.2s;
-
-    border-bottom: 3px solid #2ab6ff;
 }
+
+
+
+  /* Стиль для підкреслення при наведенні */
+  .underline-effect::after {
+    content: '';
+    position: absolute;
+    width: 120%; /* Ширина трохи більше тексту */
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -10px; /* З'являється на кілька пікселів нижче тексту */
+    left: -10%; /* Початок трохи зліва від тексту */
+    background-color: #00aaff; /* Блакитний колір */
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+.underline-effect:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
+
 
 @media only screen and (max-width:901px) {
     .hamburger  {
@@ -293,16 +315,19 @@ overflow-x: hidden;
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: none;
+  opacity: 0;
+  visibility: hidden;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 210px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   border-radius: 3px;
   z-index: 1;
+  /* top: -100%; Remove this line */
+  left: 0;
+  /* Remove transition for top */
+  transition: opacity 0.35s ease, visibility 0.3s; /* Remove top 0.35s ease */
 }
-
-
 
 
 /* Links inside the dropdown */
@@ -332,9 +357,29 @@ overflow-x: hidden;
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {display: block;}
 
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  top: 170%; /* Display below */
+}
 
 
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  opacity: 1;
+  visibility: visible;
+  /* Remove top: 170%; */
+  /* Display below, use display: none to hide */
+  /* Add transition for opacity */
+  transition: opacity 0.1s ease;
+}
 
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  color: #2ab6ff;
+  background-color: #ddd;
+}
 
 
 .trycutnuk::after {
@@ -349,3 +394,4 @@ overflow-x: hidden;
   margin-top: -5px;
   vertical-align: middle; /* Вирівнює стрілочку */
 }
+
