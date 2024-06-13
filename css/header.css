@@ -65,6 +65,8 @@ overflow-x: hidden;
 .nav__menu-link:hover {
     color: #56b3e9;
     transition: 0.2s;
+
+    border-bottom: 3px solid #2ab6ff;
 }
 
 @media only screen and (max-width:901px) {
