@@ -283,6 +283,12 @@ overflow-x: hidden;
 .dropdown {
   position: relative;
   display: inline-block;
+ 
+}
+
+.dropdown li {
+  display: flex;
+  flex-direction: row;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -303,6 +309,9 @@ overflow-x: hidden;
 .dropdown-content li {
   margin-top: 15px;
   margin-bottom: 15px;
+
+  display: flex;
+  flex-direction: column;
 }
 
 .dropdown-content a {
@@ -328,3 +337,15 @@ overflow-x: hidden;
 
 
 
+.trycutnuk::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #ffffff; /* Колір стрілочки */
+  margin-left: 5px;
+  margin-top: -5px;
+  vertical-align: middle; /* Вирівнює стрілочку */
+}
