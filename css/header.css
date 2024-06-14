@@ -8,6 +8,7 @@ margin: 0;
 padding: 0;
 flex-direction: column;
 overflow-x: hidden;
+
 }
 
 .position_header_blok {
@@ -43,6 +44,12 @@ overflow-x: hidden;
     gap: 45px;
     list-style-type: none;
   }
+
+  @media only screen and (min-width:320px) and (max-width:477px)  {
+    .nav-bar ul  {
+      gap: 15px;
+    }
+}
 
   .nav-bar ul li a {
     text-decoration: none;
@@ -129,6 +136,7 @@ overflow-x: hidden;
     transition: 0.5s;
     opacity: 0;
   }
+
   
   .nav-bar li {
     display: flex;
@@ -175,6 +183,20 @@ overflow-x: hidden;
   font-style: normal;
     color: #fff;
     line-height: 1.33;
+}
+
+@media only screen and (min-width:320px) and (max-width:477px)  {
+  .hh1_head_property {
+    font-size: 56px;
+    text-align: center
+  }
+}
+
+@media only screen and (min-width:320px) and (max-width:477px)  {
+  .hh2_head_property {
+    font-size: 24px;
+    text-align: center
+  }
 }
 
 
