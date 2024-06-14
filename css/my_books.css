@@ -116,6 +116,12 @@
         margin-bottom: 38px;
     }
 
+    @media only screen and (min-width:320px) and (max-width:477px)  {
+        .hh3_my_books_textt {
+            margin-bottom: 18px;
+        }
+    }
+
 
 
 
