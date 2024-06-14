@@ -35,6 +35,8 @@
         .hh2_personal_consultation_text {
             font-size: 34px;
             text-align: center;
+            margin-left: 15px;
+            margin-right: 15px;
         }
     }
     
@@ -69,7 +71,7 @@
 
     @media only screen and (min-width:320px) and (max-width:477px) {
         .foto_girl_blok_three {
-            width: 350px;
+            width: 330px;
         }
     }
 
@@ -84,6 +86,8 @@
     @media only screen and (min-width:320px) and (max-width:477px) {
         .foto_text_elements_consultation {
             width: 350px;
+            margin-left: 15px;
+            margin-right: 10px;
         }
     }
 
@@ -104,6 +108,13 @@
         position: relative;
         width: 70px;
         height: 70px; 
+    }
+
+    @media only screen and (min-width:320px) and (max-width:477px) {
+        .logo_personal_consultation {
+            width: 50px;
+            height: 50px;
+        }
     }
 
     .hh3_personal_consultation_textt {

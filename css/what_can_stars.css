@@ -40,6 +40,8 @@
     .text_blok_one_size {
         max-width: 370px;
         gap: 15px;
+        margin-left: 15px;
+        margin-right: 10px;
     }
 }
 
@@ -114,7 +116,11 @@
        margin-bottom: 25px;
    }
    
- 
+   @media only screen and (min-width:320px) and (max-width:477px) {
+    .pp_text_read_more {
+        margin-bottom: 5px;
+    }
+}
    
    .pp_text_read_one {
     font-size: 16px;
@@ -144,6 +150,12 @@
         margin-left:570px;
         
       }
+
+      @media only screen and (min-width:320px) and (max-width:477px) {
+        summary::after {
+            margin-left:200px;
+        }
+    }
      
      details[open] > summary::after {
         content: "-";

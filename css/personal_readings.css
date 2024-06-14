@@ -27,6 +27,12 @@
     align-items: center;
 }
 
+@media only screen and (min-width:320px) and (max-width:477px) {
+    .hh2_personal_readings_text {
+        font-size: 34px;
+    }
+}
+
 .line_size_personal_read {
     width: 60px;
     height: 4px;

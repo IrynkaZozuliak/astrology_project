@@ -47,6 +47,13 @@
         gap: 30px;
     }
     
+    @media only screen and (min-width:320px) and (max-width:477px)  {
+        .foto_join_me_insta_position {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    }
+
     .foto_join_me_insta {
         width: 365px;
         height: 295px;

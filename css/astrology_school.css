@@ -38,6 +38,12 @@
         margin-top: 15px;   
     }
 
+    @media only screen and (min-width:320px) and (max-width:477px) {
+        .hh2_astrology_school_text {
+            font-size: 34px;
+        }
+    } 
+
 
     .astrology_school_elements_position {
         display: flex;
@@ -73,6 +79,13 @@
         z-index: 0;
         position: relative;
     }
+
+    @media only screen and (min-width:320px) and (max-width:477px) {
+        .foto_size_position_astrology {
+            width: 270px;
+            height: 400px;
+        }
+    } 
 
     .hh3_astrology_school {
         font-size: 22px;
