@@ -62,61 +62,28 @@
                     <li><a class="nav__menu-link underline-effect" href="#testimonials">Testimonials</a></li>
                     <li><a class="nav__menu-link underline-effect" href="#classes">Classes</a></li>
                     <li><a class="nav__menu-link underline-effect" href="#contacts">Contacts</a></li>
+                
+
+                    <div class="wrapper">
+                        <div class="icon facebook">
+                            <span><i class="fab fa-facebook-f"></i></span>
+                        </div>
+    
+                        <div class="icon instagram">
+                            <span><i class="fab fa-instagram"></i></span>
+                        </div>
+    
+                        <div class="icon youtube">
+                            <span><i class="fab fa-youtube"></i></span>
+                        </div>
+                    </div>
+                    
                 </ul> 
 
 
-                <div class="wrapper">
-                    <div class="icon facebook">
-                        <span><i class="fab fa-facebook-f"></i></span>
-                    </div>
-
-                    <div class="icon instagram">
-                        <span><i class="fab fa-instagram"></i></span>
-                    </div>
-
-                    <div class="icon youtube">
-                        <span><i class="fab fa-youtube"></i></span>
-                    </div>
-                </div>
+                
             </nav>
         </div>
-
-        
-        
-        <script>
-            hamburger = document.querySelector(".hamburger");
-            hamburger.onclick = function () {
-                navBar = document.querySelector(".nav-bar");
-                navBar.classList.toggle("active");
-            } 
-            //чи потрібний код вище для гамбургер меню???
-
-
-
-            //цей код працює добре
-            // Отримання посилань меню
-            var menuLinks = document.querySelectorAll('.nav__menu-link');
-
-            // Додавання обробника подій для кожного посилання
-            menuLinks.forEach(function(link) {
-            link.addEventListener('click', function(event) {
-            // Згортання меню
-            var navBar = document.querySelector(".nav-bar");
-            navBar.classList.remove("active");
-            });
-            });
-
-            // Отримання кнопки гамбургера
-            var hamburger = document.querySelector(".hamburger");
-
-            // Додавання обробника подій для кнопки гамбургера
-            hamburger.onclick = function () {
-            // Розгортання або згортання меню
-            var navBar = document.querySelector(".nav-bar");
-            navBar.classList.toggle("active");
-            };
-     
-           </script> 
 
            
     </div>
