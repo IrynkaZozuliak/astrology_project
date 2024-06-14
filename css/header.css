@@ -12,10 +12,6 @@ overflow-x: hidden;
 }
 
 .position_header_blok {
-  display: flex;
-  flex-direction: row;
-  justify-content:space-around;
-  align-items: center;
   margin-top: 20px;
   margin-bottom: 25px;
   
@@ -28,7 +24,10 @@ overflow-x: hidden;
 .menu_link {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
      
 }
 .nav-bar {
