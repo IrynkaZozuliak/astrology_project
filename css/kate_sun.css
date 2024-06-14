@@ -1,5 +1,5 @@
     .blok_kate_sun_top {
-        background: url(/img/background/background11.png);
+        background: linear-gradient( rgba(255, 255, 255, 0.8), rgba(248, 245, 245, 0.75) ), url(/img/background/background11.png);
         background-size: cover;
         background-position: top;
         display: flex;
