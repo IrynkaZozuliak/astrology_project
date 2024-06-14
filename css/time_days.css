@@ -1,5 +1,5 @@
 .blok_time_days_top {
-    background-image: linear-gradient(rgba(50, 44, 44, 0.99) 0%, rgba(49, 29, 94, .85) 50%), url(/img/background/background7.jpg);
+    background-image: linear-gradient(rgba(50, 44, 44, 0.99) 0%, rgba(39, 34, 34, 0.7) 50%), url(/img/background/background7.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -40,13 +40,15 @@
      
 }
 
-.hhrr_line_size {
+.line_size_time_days {
     width: 60px;
     height: 4px;
     border: none;
     color: #fff;
     background: #fff;
-    margin-top: 15px;   
+    margin-top: 15px;
+    margin-bottom: 20px;
+  
 }
 
 .pp_time_days_text {
@@ -56,8 +58,10 @@
     font-weight: 400;
     font-style: normal;
     color: #d8d8d8;
-    line-height: 1.39;
-     
+    line-height: 1.39; 
+    text-align: center;
+    margin-left: 520px;
+    margin-right: 520px;
 }
 
 
@@ -78,8 +82,8 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
-    margin-top: 100px;
+    gap: 90px;
+    margin-top: 90px;
 }
 
 .time-content .time {
@@ -87,13 +91,15 @@
     align-items: center;
     flex-direction: column;
   }
+
   .time .number,
   .time .text {
     font-weight: 500;
     color: #fff;
   }
+
   .time .number {
-    font-size: 48px;
+    font-size: 46px;
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 700;
@@ -101,10 +107,11 @@
     color: #fff;
     line-height: 1.3;
   }
+
   .time .text {
     text-transform: capitalize;
 
-    font-size: 26px;
+    font-size: 22px;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -113,4 +120,49 @@
     line-height: 1.39;
   }
 
+
+
+
+
+
+
+
+  .buttom_time_days button[type="submit"] {
+    display: inline-block;
+    font-size: 16px;
+    background: #2ab6ff;
+    color: #ffffff;
+    border: 1px solid transparent;
+    cursor: pointer;
+    
+    transition: background 0.25s, color 0.25s;
+  }
+  
+  .buttom_time_days button[type="submit"]:hover {
+    color: #322c2c;
+    background: #fff;
+  }
+
+  .button_time_days_container { 
+    width: 170px;
+    height: 45px;
+    border: none;
+    background-color: #2ab6ff;
+    text-align: center;
+    text-decoration: none;  
+    color: #322c2c;
+   
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    border-radius: 6px;
+    border-width: 5px;
+  }
+
+  .time_days_position_botton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 90px;
+  }
 
