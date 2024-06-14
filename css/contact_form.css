@@ -28,6 +28,14 @@
         gap: 250px;
     }
 
+    @media only screen and (min-width:320px) and (max-width:477px) {
+        .contact_form_blok_one_position {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 45px;
+        }
+    } 
+
     .title_text_hh2_line {
         display: flex;
         flex-direction: column;
@@ -45,6 +53,7 @@
         flex-direction: row;
         justify-content: center;
     }
+
     .hh2_contact_form_text {
         font-size: 40px;
         font-family: "Josefin Sans", sans-serif;
@@ -64,6 +73,13 @@
         color: #2ab6ff;
         line-height: 1.3;
     }
+
+    @media only screen and (min-width:320px) and (max-width:477px) {
+        .hh2_contact_form_text,
+        .hh2_contact_form_text_type {
+            font-size: 34px;
+        }
+    } 
     
     .hhrr_line_size {
         width: 60px;

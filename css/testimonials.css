@@ -61,6 +61,13 @@
         justify-content: center;
     }
 
+    @media only screen and (min-width:320px)  {
+      .testimonials_container {
+          display: flex;
+          flex-wrap: wrap;
+      }
+  } 
+
 
     .testimonials_wrapper {
         max-width: 1170px;

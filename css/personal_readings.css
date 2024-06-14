@@ -45,6 +45,14 @@
     gap: 30px;
 }
 
+
+@media only screen and (min-width:320px)  {
+    .personal_read_elements_position {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
 .personal_read_elements_color {
     background-color: #fff;
     width: 270px;

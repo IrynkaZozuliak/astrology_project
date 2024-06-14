@@ -11,9 +11,21 @@
     gap: 30px;
 }
 
+@media only screen and (min-width:320px)  {
+    .text_what_can_position {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 .foto_can_stars_say {
     width: 470px;
+}
+
+@media only screen and (min-width:320px) and (max-width:477px) {
+    .foto_can_stars_say {
+        width: 350px;
+    }
 }
 
 .text_blok_one_size {
@@ -23,6 +35,15 @@
     gap: 25px;
     margin-top: 20px;
 }
+
+@media only screen and (min-width:320px) and (max-width:477px) {
+    .text_blok_one_size {
+        max-width: 370px;
+        gap: 15px;
+    }
+}
+
+
 
 .hh2_text_what_can {
     font-size: 40px;
@@ -40,8 +61,13 @@
     border: none;
     color: #2ab6ff;
     background: #2ab6ff;
-    margin-top: 15px;
-     
+    margin-top: 15px;  
+}
+
+@media only screen and (min-width:320px) and (max-width:477px) {
+    .hh2_text_what_can {
+        font-size: 34px;
+    }
 }
 
 .hh3_text_what_can {

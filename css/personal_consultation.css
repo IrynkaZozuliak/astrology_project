@@ -30,6 +30,13 @@
         align-items: center;
         margin-bottom: 40px;
     }
+
+    @media only screen and (min-width:320px) and (max-width:477px) {
+        .hh2_personal_consultation_text {
+            font-size: 34px;
+            text-align: center;
+        }
+    }
     
     .hhrr_line_size {
         width: 60px;
@@ -46,9 +53,24 @@
     justify-content: center;
     gap: 30px;
 }
+
+@media only screen and (min-width:320px)  {
+    .consultation_foto_text_position {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+
     .foto_girl_blok_three {
         width: 570px;
         border-radius: 7px;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:477px) {
+        .foto_girl_blok_three {
+            width: 350px;
+        }
     }
 
     .foto_text_elements_consultation {
@@ -58,6 +80,13 @@
         justify-content: center;
         gap: 30px;
     }
+
+    @media only screen and (min-width:320px) and (max-width:477px) {
+        .foto_text_elements_consultation {
+            width: 350px;
+        }
+    }
+
 .personal_consultation_elements_position {
     display: flex;
     flex-direction: row;
