@@ -61,6 +61,7 @@ overflow-x: hidden;
 .nav-bar ul {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 30px;
     list-style-type: none;
   }
