@@ -28,6 +28,19 @@
         align-items: center;
         
     }
+
+    @media only screen and (min-width:320px) and (max-width:601px)  {
+        .hh2_my_books_text {
+            font-size: 34px;
+        }
+    }
+
+    @media only screen and (min-width:601px) and (max-width:991px)  {
+        .hh2_my_books_text {
+            font-size: 37px;
+        }
+    }
+
     
     .line_size_personal_read {
         width: 60px;
@@ -47,7 +60,7 @@
         gap: 30px;
     }
 
-    @media only screen and (min-width:320px) and (max-width:477px)  {
+    @media only screen and (min-width:320px)  {
         .elements_my_books_position {
             display: flex;
             flex-wrap: wrap;
@@ -63,7 +76,7 @@
         height: 260px;
     }
 
-    @media only screen and (min-width:320px) and (max-width:477px)  {
+    @media only screen and (min-width:320px) and (max-width:601px)  {
         .my_books_foto_text_position {
             display: flex;
             flex-direction: column; 
@@ -71,6 +84,7 @@
             height: 290px;
         }
     }
+
 
     .foto_my_books {
         width: 285px;
@@ -82,7 +96,7 @@
         border-radius: 7px 0px 0px 7px;
     }
 
-    @media only screen and (min-width:320px) and (max-width:477px)  {
+    @media only screen and (min-width:320px) and (max-width:601px)  {
         .foto_my_books {
             width: 100%;
             height: 120px;
@@ -96,7 +110,7 @@
         padding-top: 50px;
     }
 
-    @media only screen and (min-width:320px) and (max-width:477px)  {
+    @media only screen and (min-width:320px) and (max-width:601px)  {
         .text_botton_position_books {
             padding-left: 15px;
             padding-right: 10px;
@@ -116,7 +130,7 @@
         margin-bottom: 38px;
     }
 
-    @media only screen and (min-width:320px) and (max-width:477px)  {
+    @media only screen and (min-width:320px) and (max-width:601px)  {
         .hh3_my_books_textt {
             margin-bottom: 18px;
         }
@@ -157,7 +171,7 @@
         border-width: 5px;
       }
 
-      @media only screen and (min-width:320px) and (max-width:477px)  {
+      @media only screen and (min-width:320px) and (max-width:601px)  {
         .foto_my_books {
             width: 100%;
             height: 120px;
