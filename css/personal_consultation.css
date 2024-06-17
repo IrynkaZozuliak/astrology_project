@@ -31,9 +31,18 @@
         margin-bottom: 40px;
     }
 
-    @media only screen and (min-width:320px) and (max-width:477px) {
+    @media only screen and (min-width:320px) and (max-width:601px) {
         .hh2_personal_consultation_text {
             font-size: 34px;
+            text-align: center;
+            margin-left: 15px;
+            margin-right: 15px;
+        }
+    }
+
+    @media only screen and (min-width:601px) and (max-width:991px) {
+        .hh2_personal_consultation_text {
+            font-size: 37px;
             text-align: center;
             margin-left: 15px;
             margin-right: 15px;
@@ -69,9 +78,15 @@
         border-radius: 7px;
     }
 
-    @media only screen and (min-width:320px) and (max-width:477px) {
+    @media only screen and (min-width:320px) and (max-width:601px) {
         .foto_girl_blok_three {
             width: 330px;
+        }
+    }
+
+    @media only screen and (min-width:601px) and (max-width:768px) {
+        .foto_girl_blok_three {
+            width: 430px;
         }
     }
 
@@ -83,11 +98,19 @@
         gap: 30px;
     }
 
-    @media only screen and (min-width:320px) and (max-width:477px) {
+    @media only screen and (min-width:320px) and (max-width:601px) {
         .foto_text_elements_consultation {
             width: 350px;
             margin-left: 15px;
             margin-right: 10px;
+        }
+    }
+
+    @media only screen and (min-width:601px) and (max-width:768px) {
+        .foto_text_elements_consultation {
+            width: 430px;
+            margin-left: 10px;
+            margin-right: 5px;
         }
     }
 
@@ -114,6 +137,13 @@
         .logo_personal_consultation {
             width: 50px;
             height: 50px;
+        }
+    }
+
+    @media only screen and (min-width:477px) and (max-width:601px) {
+        .logo_personal_consultation {
+            width: 60px;
+            height: 60px;
         }
     }
 
