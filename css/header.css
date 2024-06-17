@@ -35,8 +35,8 @@ overflow-x: hidden;
 
 @media only screen and (min-width:320px) and (max-width:477px) {
   .menu_link   {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
   }
 }
 
