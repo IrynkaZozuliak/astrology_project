@@ -36,15 +36,13 @@
 @media only screen and (min-width:320px) and (max-width:601px) {
     .contact_Us_form_two  {
       width: 320px;
-      height: 700px;
       margin-left: 30px;
     }
   }
 
-  @media only screen and (min-width:601px) and (max-width:767px) {
+  @media only screen and (min-width:601px) and (max-width:991px) {
     .contact_Us_form_two  {
-      width: 400px;
-      height: 700px;
+      width: 400px;  
       margin-left: 30px;
     }
   }
@@ -52,7 +50,6 @@
   @media only screen and (min-width:991px) and (max-width:1220px) {
     .contact_Us_form_two  {
       width: 450px;
-      height: 550px;
       margin-left: 30px;
     }
   }
@@ -64,10 +61,17 @@
     margin-right: 85px;
   }
 
-  @media only screen and (min-width:320px) and (max-width:477px)  {
+  @media only screen and (min-width:320px) and (max-width:601px)  {
     .text_contsct_us_two_position {
       margin-left: 60px;
       margin-right: 60px;
+    }
+  }
+
+  @media only screen and (min-width:601px) and (max-width:991px)  {
+    .text_contsct_us_two_position {
+      margin-left: 65px;
+      margin-right: 65px;
     }
   }
 
@@ -82,9 +86,15 @@
     text-align: center;
 }
 
-@media only screen and (min-width:320px) and (max-width:477px)  {
+@media only screen and (min-width:320px) and (max-width:601px)  {
   .hh3_contactUs_two_textt  {
       font-size: 24px;
+  }
+}
+
+@media only screen and (min-width:601px) and (max-width:991px)  {
+  .hh3_contactUs_two_textt  {
+      font-size: 28px;
   }
 }
 
@@ -101,11 +111,13 @@
     text-align: center;
 }
 
-@media only screen and (min-width:320px) and (max-width:477px)  {
+@media only screen and (min-width:320px) and (max-width:991px)  {
   .pp_contactUs_two {
       font-size: 18px;
   }
 }
+
+
 
 
 
@@ -143,11 +155,11 @@
     }
   }
 
-  @media only screen and (min-width:601px) and (max-width:767px) {
+  @media only screen and (min-width:601px) and (max-width:991px) {
     .figura_position_contactUss  {
       width: 300px;
       height: 45px;
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 
@@ -155,7 +167,7 @@
     .figura_position_contactUss  {
       width: 350px;
       height: 45px;
-      font-size: 12px;
+      font-size: 14px;
     }
   }
 
@@ -187,7 +199,7 @@
     }
   }
 
-  @media only screen and (min-width:601px) and (max-width:767px) {
+  @media only screen and (min-width:601px) and (max-width:991px) {
     .figura_position_textare  {
         width: 300px;
         height: 47px;
@@ -257,16 +269,18 @@
     }
   }
 
-  @media only screen and (min-width:601px) and (max-width:767px) {
+  @media only screen and (min-width:601px) and (max-width:991px) {
     .buttom_contact_form_twoo button[type="submit"]  {
-        padding: 10px 120px;
+      width: 300px;   
+      padding: 10px 90px;
         font-size: 12px;
     }
   }
 
   @media only screen and (min-width:991px) and (max-width:1220px) {
     .buttom_contact_form_twoo button[type="submit"]  {
-        padding: 10px 150px;
+      width: 350px;   
+      padding: 10px 150px;
         font-size: 12px;
     }
   }
