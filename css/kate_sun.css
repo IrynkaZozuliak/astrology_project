@@ -43,12 +43,14 @@
     @media only screen and (min-width:320px) and (max-width:601px)  {
         .hh2_kate_sun_text  {
             font-size: 34px;
+            text-align: center;
         }
     }
 
     @media only screen and (min-width:601px) and (max-width:991px)  {
         .hh2_kate_sun_text  {
             font-size: 37px;
+            text-align: center;
         }
     }
 
@@ -61,6 +63,14 @@
 
         margin-left: 55px;
         margin-right: 55px;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:601px)  {
+        .elements_kate_sun_positions  {
+            gap: 15px;
+            margin-left: 15px;
+            margin-right: 10px;;
+        }
     }
 
     @media only screen and (min-width:1700px) and (max-width:2500px) {
@@ -79,6 +89,12 @@
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     }
 
+    @media only screen and (min-width:320px) and (max-width:601px)  {
+        .elements_kate_sun_size  {
+            width: 90px;
+            height: 80px;
+        }
+    }
 
     .foto_text_position_katesun {
         display: flex;
@@ -91,6 +107,14 @@
        margin-top: 35px;
     }
 
+    @media only screen and (min-width:320px) and (max-width:601px)  {
+        .foto_kate_sun__size  {
+            width: 35px;
+            margin-top: 15px;
+        }
+    }
+
+
     .pp_kate_sun {
         font-size: 16px;
         font-family: "Roboto", sans-serif;
@@ -100,4 +124,14 @@
         line-height: 1.56;
         margin-top: 20px;
         margin-bottom: 30px;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:601px)  {
+        .pp_kate_sun  {
+            font-size: 10px;
+            margin-top: 5px;
+            margin-bottom: 15px;
+            line-height: 1.16;
+            text-align: center;
+        }
     }
