@@ -164,7 +164,7 @@
         gap: 25px;
     }
 
-    .figura_position_petSit_all {
+    .figura_position_horoscope_all {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -201,7 +201,6 @@
 
     .zodiak_text_one {
         display: none;
-         
     }
 
     .zodiak_text {
