@@ -1,5 +1,6 @@
 
 :root {
+    scroll-behavior: smooth;
     /* COLORS */
     --title-color: #ffffff;
     --section-name-color: #676767;
